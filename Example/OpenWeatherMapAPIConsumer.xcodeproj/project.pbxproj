@@ -13,6 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		648ABA9F1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABA9E1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift */; };
+		648ABAA31E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */; };
+		648ABAA41E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */; };
+		648ABAA51E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA21E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift */; };
 		8FDF77CB30D9506D1E8203BD /* Pods_OpenWeatherMapAPIConsumer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3AB3B7C6801B4A5DD74B2 /* Pods_OpenWeatherMapAPIConsumer_Tests.framework */; };
 		AA1FD3D8F8B81E803DC50D4D /* Pods_OpenWeatherMapAPIConsumer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C32B36ACB47C0C88BA3E67E /* Pods_OpenWeatherMapAPIConsumer_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,9 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		104B30AE41FD04D3E7A006A1 /* OpenWeatherMapAPIConsumer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenWeatherMapAPIConsumer.podspec; path = ../OpenWeatherMapAPIConsumer.podspec; sourceTree = "<group>"; };
+		104B30AE41FD04D3E7A006A1 /* OpenWeatherMapAPIConsumer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OpenWeatherMapAPIConsumer.podspec; path = ../OpenWeatherMapAPIConsumer.podspec; sourceTree = "<group>"; };
 		28E3AB3B7C6801B4A5DD74B2 /* Pods_OpenWeatherMapAPIConsumer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherMapAPIConsumer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B647693D77CDB9A5D9465A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5B647693D77CDB9A5D9465A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C32B36ACB47C0C88BA3E67E /* Pods_OpenWeatherMapAPIConsumer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherMapAPIConsumer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* OpenWeatherMapAPIConsumer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherMapAPIConsumer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +46,13 @@
 		607FACE51AFB9204008FA782 /* OpenWeatherMapAPIConsumer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWeatherMapAPIConsumer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		648ABA9E1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapTest.swift; sourceTree = "<group>"; };
+		648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOpenWeatherMapTest.swift; sourceTree = "<group>"; };
+		648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentResponseOpenWeatherMapTest.swift; sourceTree = "<group>"; };
+		648ABAA21E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastResponseOpenWeatherMapTest.swift; sourceTree = "<group>"; };
 		9CCE81A5167C3243A59F5637 /* Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherMapAPIConsumer_Example/Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D72FAF72AA46F86B210AD7F /* Pods-OpenWeatherMapAPIConsumer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherMapAPIConsumer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherMapAPIConsumer_Tests/Pods-OpenWeatherMapAPIConsumer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9E104A921F6BB755560FCCB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E104A921F6BB755560FCCB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A2F55DC9E63F487C791EFDC9 /* Pods-OpenWeatherMapAPIConsumer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherMapAPIConsumer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherMapAPIConsumer_Tests/Pods-OpenWeatherMapAPIConsumer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7CC23EB2110F971FF99C4DE /* Pods-OpenWeatherMapAPIConsumer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherMapAPIConsumer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherMapAPIConsumer_Example/Pods-OpenWeatherMapAPIConsumer_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +132,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */,
+				648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */,
+				648ABAA21E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift */,
+				648ABA9E1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -215,9 +227,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -368,7 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648ABAA41E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift in Sources */,
+				648ABAA51E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift in Sources */,
+				648ABAA31E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				648ABA9F1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +512,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +526,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

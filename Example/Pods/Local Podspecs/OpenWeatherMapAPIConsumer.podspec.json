@@ -1,0 +1,22 @@
+{
+  "name": "OpenWeatherMapAPIConsumer",
+  "version": "0.1.0",
+  "summary": "A short description of OpenWeatherMapAPIConsumer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/OpenWeatherMapAPIConsumer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jose Luis Cardosa": "jlcardosa@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/OpenWeatherMapAPIConsumer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OpenWeatherMapAPIConsumer/Classes/**/*"
+}

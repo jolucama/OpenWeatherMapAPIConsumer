@@ -1,0 +1,16 @@
+PODS:
+  - OpenWeatherMapAPIConsumer (0.1.0)
+
+DEPENDENCIES:
+  - OpenWeatherMapAPIConsumer (from `../`)
+
+EXTERNAL SOURCES:
+  OpenWeatherMapAPIConsumer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OpenWeatherMapAPIConsumer: b77510c60e63403ef35596c1f4573036ec777fe0
+
+PODFILE CHECKSUM: 4678303a5d058d5df06294a073621b1515fd9a47
+
+COCOAPODS: 1.1.1
