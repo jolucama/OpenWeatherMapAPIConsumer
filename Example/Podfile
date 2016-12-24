@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OpenWeatherMapAPIConsumer_Example' do
+  pod 'OpenWeatherMapAPIConsumer', :path => '../'
+
+  target 'OpenWeatherMapAPIConsumer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
