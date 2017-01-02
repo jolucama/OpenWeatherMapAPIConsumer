@@ -13,7 +13,7 @@ public class PlistManager {
     
     public static func getValue(forKey key: String) -> Any? {
         var config: NSDictionary
-        if let path = Bundle.main.path(forResource: "Config", ofType: "plist") {
+        if let path = Bundle.main.path(forResource: "Info", ofType: "plist") {
             config = NSDictionary(contentsOfFile: path)!
             return config.value(forKey: "APIWeatherKey")
         }

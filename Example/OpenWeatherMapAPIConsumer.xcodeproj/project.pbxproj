@@ -12,7 +12,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		648ABA9F1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABA9E1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift */; };
 		648ABAA31E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */; };
 		648ABAA41E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */; };
@@ -45,7 +44,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* OpenWeatherMapAPIConsumer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWeatherMapAPIConsumer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		648ABA9E1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapTest.swift; sourceTree = "<group>"; };
 		648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOpenWeatherMapTest.swift; sourceTree = "<group>"; };
 		648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentResponseOpenWeatherMapTest.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */,
 				648ABAA21E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift */,
 				648ABA9E1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift */,
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -222,11 +219,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9LC8BHZNLR;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -385,7 +383,6 @@
 				648ABAA41E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift in Sources */,
 				648ABAA51E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift in Sources */,
 				648ABAA31E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift in Sources */,
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 				648ABA9F1E0E2E5B00F0A48F /* OpenWeatherMapTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,8 +430,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -478,8 +477,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -498,6 +499,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -506,8 +508,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CCE81A5167C3243A59F5637 /* Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LC8BHZNLR;
 				INFOPLIST_FILE = OpenWeatherMapAPIConsumer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -520,8 +525,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7CC23EB2110F971FF99C4DE /* Pods-OpenWeatherMapAPIConsumer_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LC8BHZNLR;
 				INFOPLIST_FILE = OpenWeatherMapAPIConsumer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
