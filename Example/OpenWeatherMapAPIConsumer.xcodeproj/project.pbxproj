@@ -16,6 +16,8 @@
 		648ABAA31E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */; };
 		648ABAA41E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */; };
 		648ABAA51E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABAA21E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift */; };
+		64B7F8491E1BB5F5008EB6BA /* CurrentWeatherViewController.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7F8481E1BB5F5008EB6BA /* CurrentWeatherViewController.png */; };
+		64B7F84B1E1BB670008EB6BA /* ForecastWeatherViewController.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7F84A1E1BB670008EB6BA /* ForecastWeatherViewController.png */; };
 		8FDF77CB30D9506D1E8203BD /* Pods_OpenWeatherMapAPIConsumer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3AB3B7C6801B4A5DD74B2 /* Pods_OpenWeatherMapAPIConsumer_Tests.framework */; };
 		AA1FD3D8F8B81E803DC50D4D /* Pods_OpenWeatherMapAPIConsumer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C32B36ACB47C0C88BA3E67E /* Pods_OpenWeatherMapAPIConsumer_Example.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 		648ABAA01E0E2EB000F0A48F /* RequestOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOpenWeatherMapTest.swift; sourceTree = "<group>"; };
 		648ABAA11E0E2EB000F0A48F /* CurrentResponseOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentResponseOpenWeatherMapTest.swift; sourceTree = "<group>"; };
 		648ABAA21E0E2EB000F0A48F /* ForecastResponseOpenWeatherMapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastResponseOpenWeatherMapTest.swift; sourceTree = "<group>"; };
+		64B7F8481E1BB5F5008EB6BA /* CurrentWeatherViewController.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CurrentWeatherViewController.png; sourceTree = "<group>"; };
+		64B7F84A1E1BB670008EB6BA /* ForecastWeatherViewController.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForecastWeatherViewController.png; sourceTree = "<group>"; };
 		9CCE81A5167C3243A59F5637 /* Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherMapAPIConsumer_Example/Pods-OpenWeatherMapAPIConsumer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D72FAF72AA46F86B210AD7F /* Pods-OpenWeatherMapAPIConsumer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherMapAPIConsumer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherMapAPIConsumer_Tests/Pods-OpenWeatherMapAPIConsumer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E104A921F6BB755560FCCB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		607FACD21AFB9204008FA782 /* Example for OpenWeatherMapAPIConsumer */ = {
 			isa = PBXGroup;
 			children = (
+				64B7F8471E1BB5C4008EB6BA /* Screenshots */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -155,6 +160,15 @@
 				9E104A921F6BB755560FCCB7 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		64B7F8471E1BB5C4008EB6BA /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				64B7F8481E1BB5F5008EB6BA /* CurrentWeatherViewController.png */,
+				64B7F84A1E1BB670008EB6BA /* ForecastWeatherViewController.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 		E61AF0A76FA1140E9E6973E0 /* Pods */ = {
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				64B7F84B1E1BB670008EB6BA /* ForecastWeatherViewController.png in Resources */,
+				64B7F8491E1BB5F5008EB6BA /* CurrentWeatherViewController.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
