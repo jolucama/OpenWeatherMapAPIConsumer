@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenWeatherMapAPIConsumer'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Get current weather and 3-hourly forecast 5 days for your city. Helpful stats, temperature, clouds, pressure, wind around your location.'
 
 # This description is used to generate tags and improve search results.
