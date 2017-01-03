@@ -14,8 +14,8 @@ Note: In the consumer has been implemented just the free version of the API. In 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 <p align="center">
-    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/tree/master/Example/CurrentWeatherViewController.png" width="250"/>
-    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/tree/master/Example/ForecastWeatherViewController.png" width="250"/>
+    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/CurrentWeatherViewController.png" width="200"/>
+    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/ForecastWeatherViewController.png" width="200"/>
 </p>
 
 Basically, the example makes use of the CLLocationManager to obtain the current coordenates, and then make a request to our API to get all the displayed information. All the code is located in <a href="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/ViewController.swift">View Controller</a>
@@ -55,9 +55,11 @@ let weatherAPI = OpenWeatherMapAPI(apiKey: "YOUR_API_KEY", forType: OpenWeatherM
 ```
 
 
-### Setup the location
+### Set the location using 
 
 ```swift
+
+public func weather(byLatitude latitude : Double, andLongitude longitude : Double)
 
 public func weather(byCityName cityName : String)
 
@@ -65,8 +67,6 @@ public func weather(byCityName cityName : String, andCountryCode countryCode: St
 
 // List of city ids may be found here: http://bulk.openweathermap.org/sample/
 public func weather(byCityId cityId : Int)
-
-public func weather(byLatitude latitude : Double, andLongitude longitude : Double)
 
 ```
 
