@@ -14,8 +14,8 @@ Note: In the consumer has been implemented just the free version of the API. In 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 <p align="center">
-    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/CurrentWeatherViewController.png" width="200"/>
-    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/ForecastWeatherViewController.png" width="200"/>
+    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/CurrentWeatherViewController.png" width="300"/>
+    <img src="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/ForecastWeatherViewController.png" width="300"/>
 </p>
 
 Basically, the example makes use of the CLLocationManager to obtain the current coordenates, and then make a request to our API to get all the displayed information. All the code is located in <a href="https://github.com/jolucama/OpenWeatherMapAPIConsumer/blob/master/Example/OpenWeatherMapAPIConsumer/ViewController.swift">View Controller</a>
