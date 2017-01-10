@@ -1,6 +1,6 @@
 # OpenWeatherMapAPIConsumer
 
-Get current weather and 3-hourly forecast 5 days for your city. Helpful stats, temperature, clouds, pressure, wind around your location... This API is a consumer of <a href="https://openweathermap.org/">Open Weather Map</a> and the description of the api may be found <a href="https://openweathermap.org/api">here</a>
+Open Weather Map API Consumer fully <a href="https://github.com/jolucama/OpenWeatherMapAPIConsumer/tree/master/Example/Tests">Unit Tested</a>, being able to get current weather and 3-hourly forecast 5 days for your city. Helpful stats, temperature, clouds, pressure, wind around your location... This API is a consumer of <a href="https://openweathermap.org/">Open Weather Map</a> and the description of the api may be found <a href="https://openweathermap.org/api">here</a>
 
 Note: In the consumer has been implemented just the free version of the API. In order to start using it, please register and get the API Key <a href="https://openweathermap.org/price">Sign up</a>
 
