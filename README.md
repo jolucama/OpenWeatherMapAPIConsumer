@@ -4,7 +4,7 @@ Open Weather Map API Consumer fully <a href="https://github.com/jolucama/OpenWea
 
 Note: In the consumer has been implemented just the free version of the API. In order to start using it, please register and get the API Key <a href="https://openweathermap.org/price">Sign up</a>
 
-[![CI Status](http://img.shields.io/travis/Jose Luis Cardosa/OpenWeatherMapAPIConsumer.svg?style=flat)](https://travis-ci.org/Jose Luis Cardosa/OpenWeatherMapAPIConsumer)
+[![Build Status](https://travis-ci.org/jolucama/OpenWeatherMapAPIConsumer.svg?branch=master)](https://travis-ci.org/jolucama/OpenWeatherMapAPIConsumer)
 [![Version](https://img.shields.io/cocoapods/v/OpenWeatherMapAPIConsumer.svg?style=flat)](http://cocoapods.org/pods/OpenWeatherMapAPIConsumer)
 [![License](https://img.shields.io/cocoapods/l/OpenWeatherMapAPIConsumer.svg?style=flat)](http://cocoapods.org/pods/OpenWeatherMapAPIConsumer)
 [![Platform](https://img.shields.io/cocoapods/p/OpenWeatherMapAPIConsumer.svg?style=flat)](http://cocoapods.org/pods/OpenWeatherMapAPIConsumer)
