@@ -32,7 +32,7 @@ public class OpenWeatherMapAPI {
 		self.parameters[RequestParametersKey.cityName.rawValue] = cityName + "," + countryCode
 	}
 	
-	/// List of city ids may be found here: http://bulk.openweathermap.org/sample/
+	/// List of city ids may be found here: https://bulk.openweathermap.org/sample/
 	public func weather(byCityId cityId : Int) {
 		self.parameters[RequestParametersKey.cityID.rawValue] = String(cityId)
 	}

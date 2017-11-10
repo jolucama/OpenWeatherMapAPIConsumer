@@ -11,7 +11,7 @@ import Foundation
 
 public class RequestOpenWeatherMap {
     
-    let baseURLString = "http://api.openweathermap.org/data/"
+    let baseURLString = "https://api.openweathermap.org/data/"
     let apiVersion = "2.5/"
     let method = "GET"
 	
